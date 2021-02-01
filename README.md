@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Blossom & Hue Stacking Ring for Women Teens & Girls [18K Gold Plated on .925 Sterling Silver] - Dainty Beaded Band [Hypoallergenic]</title>
