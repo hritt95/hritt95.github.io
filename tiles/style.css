@@ -1,0 +1,104 @@
+body{
+	margin:0;
+	padding:0;
+  background-color:#CDCDCD;
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	max-width: 850px;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: center;
+	opacity:.5;
+  height:99vh;
+}
+
+.navbar{
+
+	flex-grow: 1;
+	background-color:#88BBD6;
+	font-family: 'Poppins', helvetica,sans-serif,600;
+	 margin-top:0px;
+	 text-align: center;
+	position: sticky;
+	top:0;
+	z-index: 100;
+	width:100%;
+	height:80px;
+	opacity: .7;
+
+}
+.logo {
+	max-width: 100px;
+}
+.logo_img {
+	margin-top: 10px;
+	max-width: 25%;
+
+}
+
+.search {
+	max-width: 100px;
+	text-align: right;
+	align-content: flex-end;
+
+}
+.search_img {
+	margin-top: 0px;
+		max-width: 70%;
+}
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.tile1{
+		background-image: url("img/apple_bg.jpeg");
+}
+
+.tile2{
+		background-image: url("img/mac.jpg");
+}
+.tile3{
+	background-image: url("img/iphone.jpg");
+
+}
+.tile4{
+		background-image: url("img/watch.jpeg");
+}
+.text{
+	margin-top: 500px;
+	text-align:center;
+	color:#ffcd8f;
+	font-family: 'Poppins, helvetica', sans-serif;
+	font-weight: bold;
+	font-size:24px;
+}
+	a {
+	  color:#102336;
+	  font-size:16px;
+	  text-decoration: none;
+	  margin-right:20px;
+	}
+
+	a:hover {
+	  color:#9099A2;
+	 }
+	  a:active {
+	  color: grey;
+	}
+
+
+	.content{
+	font-family: 'Poppins', helvetica, sans-serif;
+		text-align: center;
+		margin-top:10px;
+	}
