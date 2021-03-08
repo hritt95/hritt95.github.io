@@ -1,0 +1,106 @@
+body{
+  font-family: helvetica,sans-serif;
+  background-color:#0B0C10;
+  color:#66FCF1;
+  margin: 20px;
+  padding:20px;
+
+}
+
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.navbar{
+  background-color: #1F2833;
+  flex-grow: 1;
+  height:100px;
+  text-align: left;
+	top:0;
+  opacity: .7;
+  position: sticky;
+  overflow: hidden;
+  z-index: 100;
+
+}
+
+.logo{
+margin-top:10px;
+margin-right: 10px;
+  max-width:55px;
+}
+
+.logo_img{
+  margin-top: 0px;
+	max-width: 25%;
+}
+
+
+
+
+/* PAGE PLACEMENT COMPONENT */
+.page_placement{
+    max-width: 350px;
+    width:70%;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #45A29E;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.page_placement .section{
+   color: #45A29E;
+   text-transform: uppercase;
+   font-family: "helvetica";
+   font-weight: bold;
+   font-size: 16px;
+   text-align: center;
+}
+.page_placement_img{
+	width: 100%;
+	float:none;
+}
+.herocontainer{
+  position: relative;
+  text-align: center;
+  font-size:16px;
+  font-family: "helvetica";
+  color: #45A29E;
+}
+/* anchor tag*/
+
+a{
+  color:#66FCC1;
+  text-decoration: none;
+  font-size:14px;
+  margin-right: 20px;
+
+}
+
+a:hover{
+  color:#45A29E;
+}
+
+/* [class^="side_bar"] element that starts with */
+div [class^="side_bar"]:first-of-type {
+    margin: 0px;
+
+}
+
+div [class^="side_bar"]:last-of-type {
+    margin: 0px;
+
+}
