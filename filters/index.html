@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+	<style>
+
+		.outer{
+
+			text-align: center;
+			height: 100%;
+			background-color: #274E87
+
+		}
+
+
+		.page{
+
+		background-color: #274E87
+		width:1200px;
+		height: 100%;
+		display: inline-block;
+
+		}
+
+     .my_filter{
+
+      -webkit-filter: drop-shadow:(100px); saturate(0); 
+      filter: drop-shadow(100px);
+      filter: saturate(0);
+
+
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 5s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+	      100%{
+	       -webkit-filter: drop-shadow:(0px); saturate(2);
+	        filter: drop-shadow(0px);
+	        filter:saturate(1);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="outer">
+
+<div class="page">
+
+<img class="my_filter" src="img/anime_poster.jpg" alt="jujutsu kaisen" border="0">
+
+</div>
+</div>
+</body>
+</html>
