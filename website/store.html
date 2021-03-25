@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+		<title>Apple</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div class="outer">
+		<div class="page">
+
+<!--topbar-->
+			<div class="top">
+				<div class="logo"><a href="index.html"><img src="img/apple.png" alt="apple logo" border="0"></a></div>
+				<div class="navbar">
+					<a href="index.html">Home</a>
+					<a href="#">About</a>
+					<a href="#">Contact</a>
+					<a href="store.html">Store</a>
+				</div>
+				<div class="search"><img src="img/search.png" alt="search bar" border="0"></div>
+			</div>
+<!--topbar end-->
+	<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+			    <img src="img/slide_1.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="img/slide_2.jpg" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="img/slide_3.jpg" style="width:100%">
+			  </div>
+
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			<!--slideshow javascript-->
+					<script>
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  slideIndex++;
+					  if (slideIndex > slides.length) {slideIndex = 1}
+					  slides[slideIndex-1].style.display = "block";
+					  setTimeout(showSlides, 3000); // Change image every 3 seconds
+					}
+					</script>
+<!--content space-->
+
+
+			<div class="products">
+					 <img src="img/macbook_pro.jpg" alt="macbookpro" border="0">
+					 <img src="img/iphone_2021.jpg" alt="iphone" border="0">
+					 <img src="img/iwatch_2021.jpg" alt="iwatch 2021" border="0">
+					 <img src="img/apple_tv.jpg" alt="apple tv" border="0">
+					 <img src="img/apple_music.jpg" alt="apple music" border="0">
+				 </div>
+
+
+
+		</div>
+	</div>
+
+</body>
+</html>
