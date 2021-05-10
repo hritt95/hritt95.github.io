@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+		<title>Apple Store - Offical Site</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+				<meta name="title" content="Apple">
+				<meta name="description" content="Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, and entertainment.">
+				<meta name="keywords" content="iPhone, iPad, Apple Watch, Macbook  Pro, Mac, Apple TV, Apple Music, Airpods ">
+				<meta name="robots" content="index, follow">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<meta name="language" content="English">
+
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+	<div class="outer">
+		<div class="page">
+
+<!--topbar-->
+			<div class="top">
+				<div class="logo"><a href="index.html"><img src="img/apple.png" alt="apple logo" border="0"></a></div>
+				<div class="navbar">
+					<a href="index.html" alt="Apple Homepage">Home</a>
+					<a href="#" alt="About Apple">About</a>
+					<a href="#" alt="Contact Apple">Contact</a>
+					<a href="store.html" alt="Apple Store">Store</a>
+				</div>
+				<div class="search"><img src="img/search.png" alt="search bar" border="0"></div>
+			</div>
+<!--topbar end-->
+	<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+			    <img src="img/slide_1.jpg" style="width:100%" alt="iPhone 12 2021">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="img/slide_2.jpg" style="width:100%" alt="Macbook Pro 2021">
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="img/slide_3.jpg" style="width:100%" alt="iWatch 2021">
+			  </div>
+
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			<!--slideshow javascript-->
+					<script>
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  slideIndex++;
+					  if (slideIndex > slides.length) {slideIndex = 1}
+					  slides[slideIndex-1].style.display = "block";
+					  setTimeout(showSlides, 3000); // Change image every 3 seconds
+					}
+					</script>
+<!--content space-->
+
+
+			<div class="products">
+					 <img src="img/macbook_pro.jpg" alt="Macbook Pro Apple 2021" border="0">
+					 <img src="img/iphone_2021.jpg" alt="iPhone 12 2021" border="0">
+					 <img src="img/iwatch_2021.jpg" alt="iWatch 2021" border="0">
+					 <img src="img/apple_tv.jpg" alt="Apple TV" border="0">
+					 <img src="img/apple_music.jpg" alt="Apple Music" border="0">
+				 </div>
+
+
+		</div>
+		<footer>
+					<p> Hannah Rittenberg &copy; 2021</p>
+
+						<a href="https://www.instagram.com/apple/" target="_blank"><img src="img/insta.png" alt="Apple instagram" border="0"></a>
+						<a href="https://www.facebook.com/apple/" target="_blank"><img src="img/facebook.png" alt="Apple facebook" border="0"></a>
+						<a href="https://twitter.com/apple/" target="_blank"><img src="img/twitter.png" alt="Apple twitter" border="0"></a>
+
+				 </footer>
+
+
+	</div>
+
+</body>
+</html>
